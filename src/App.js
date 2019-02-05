@@ -5,10 +5,6 @@ import MessageContainer from './components/MessageContainer'
 import NewMessageContainer from './components/NewMessageContainer'
 const API = "http://fetch-message-in-the-bottle.herokuapp.com/api/v2/messages"
 
-
-
-
-
 class App extends Component {
   state= {
     allMsg: [],
@@ -115,7 +111,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={"https://slack-imgs.com/?c=1&url=https%3A%2F%2F1.bp.blogspot.com%2F-eIqutSAzi_k%2FWQRkfbm-N4I%2FAAAAAAAHRnw%2FrimlsE5VglYmdhQCZ7rDR965TrGcNMxYwCLcB%2Fs1600%2FAW419452_00.gif"} className="App-logo" alt="logo" />
           <NewMessageContainer
             newMessageForm={this.newMessageForm}
             addNewMessage={this.addNewMessage}
